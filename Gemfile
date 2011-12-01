@@ -17,12 +17,13 @@ group :assets do
 end
 
 group :development do
-	gem 'rspec-rails', '2.6.1'
+	gem 'rspec-rails', '2.7.0'
 end
 
 group :test do
-	gem 'rspec-rails', '2.6.1'
+	gem 'rspec-rails', '2.7.0'
 	gem 'webrat', '0.7.1'
+	gem 'spork', '0.9.0.rc8'
 end
 
 gem 'jquery-rails'
